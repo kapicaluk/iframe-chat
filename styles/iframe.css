@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: scroll;
+}
+#message {
+  border: 1px rgb(78, 78, 78) solid;
+}
+
+#chat-form {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  top: 100;
+}
+
+#messages {
+  overflow: scroll;
+  position: relative;
+  height: 80%;
+}
+
+button {
+  width: 100%;
+}
+

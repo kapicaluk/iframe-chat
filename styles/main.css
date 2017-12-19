@@ -1,0 +1,25 @@
+body,
+html {
+  overflow: scroll;
+}
+
+body {
+  position: relative;
+}
+
+#add {
+  position: fixed;
+  right: 110px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+iframe {
+  height: 300px;
+  width: 300px;
+  bottom: 0;
+  border-style: none;
+  resize: both;
+  border: 10px #353535 solid;
+}
